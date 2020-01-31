@@ -1,7 +1,7 @@
 import unittest
 from braille_translation import solution
 
-class TestStringMethods(unittest.TestCase):
+class TestBrailleConverter(unittest.TestCase):
 
   def test_Braille(self):
       self.assertEqual(solution("Braille"), "000001110000111010100000010100111000111000100010")
